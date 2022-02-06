@@ -1,0 +1,29 @@
+CREATE TABLE `flask_db`.`kullanicilar` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `TcNo` VARCHAR(45) NULL,
+  `isim` VARCHAR(45) NULL,
+  `soyisim` VARCHAR(45) NULL,
+  `SeriNo` VARCHAR(45) NULL,
+  `DogumTarihi` VARCHAR(45) NULL,
+  `email` VARCHAR(45) NULL,
+  `adres` VARCHAR(100) NULL,
+  `sehir` VARCHAR(45) NULL,
+  `ilce` VARCHAR(45) NULL,
+  `sifre` VARCHAR(45) NULL,
+  `KayitFoto` VARCHAR(100) NULL,
+  `GirisFoto` VARCHAR(100) NULL,
+  PRIMARY KEY (`id`));
+
+
+CREATE TABLE `flask_db`.`kod1` (
+  `id` INT NOT NULL,
+  `kod` INT NULL,
+  PRIMARY KEY (`id`));
+
+
+CREATE TABLE `flask_db`.`table_oy` (
+  `id` INT NOT NULL,
+  `Vlademir_Putin` INT NULL,
+  `Angela_Merkel` INT NULL,
+  `Emmanuel_Macron` INT NULL,
+  PRIMARY KEY (`id`));

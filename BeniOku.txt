@@ -1,0 +1,24 @@
+1- PYTHON KURULUM
+" python-3.8.0-amd64.exe " isimli dosyayı çalıştınız ve 
+kurulum esnasında "ADD PATH" seçeneğini işaretleyiniz
+
+2- MODÜLLERİN İNDİRİLMESİ
+cmd yi açınız dosyaların olduğu klasöre gidiniz ve aşağıdaki kodları yazınız
+' python -m pip install --upgrade pip '
+' pip install -r requirements.txt '
+
+3- VERİTABANI KURULUM
+veritabanı sadece MySql de çalışmaktadır, MySql indiriniz
+veritabanlarını oluşturmak için " flask_db " adında bir database açınız
+bir tane query açınız ve database.txt içindeki kodları yazıp çalıştınız
+böylece flask_db veritabanı içerisinde 3 tane tablo oluşmuş olacak
+
+4- VERİTABANI DÜZENLEME
+app.py dosyasındaki 12 ile 17. satır arasındaki kod kısımlarını
+kendi veritabanınıza göre düzenleyin
+(host, user, passwd gibi)
+
+5- MAİL DÜZENLEME
+Mail2.py dosyasını açınız
+19. satırdaki mailaddress = "deneme@mail.com" kısmına kendi mailinizi yazınız
+20. satırdaki password = "password" kısmına kendi şifrenizi yazınız 

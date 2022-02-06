@@ -1,0 +1,8 @@
+opencv-python==4.5.5.62
+deepface==0.0.72
+facenet==1.0.5
+Flask==2.0.2
+Flask-MySQLdb==0.2.0
+mysql-connector==2.2.9
+mysql-connector-python==8.0.27
+mysqlclient==2.1.0
