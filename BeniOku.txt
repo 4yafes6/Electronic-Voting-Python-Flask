@@ -1,3 +1,17 @@
+bu programın yapım aşamasında
+veritabanı -> MySql
+kod editörü -> Visual Studio Code
+kullanılmıştır
+
+bu proğramın amacı web üzeinden biyometrik tabanlı
+elektronik oylama yapabilmektir
+
+kayıt olma işlemleri gerçekleştirirken mail adresinizi istiyor ve size kod gönderiyor
+gönderdiği kodu doğru girmeniz halinde yüz verinizi istiyor ve kaydediyor
+sonrasında ise giriş yaparken doğru kimlik numarası ve şifre girildiği zaman sizden 
+yüz verinizi istiyor ve kayıt olurken verdiğiniz yüz ile eşleşip eşleşmediğini
+kontrol ediyor doğru ise giriş başarılı oluyor
+
 1- PYTHON KURULUM
 " python-3.8.0-amd64.exe " isimli dosyayı çalıştınız ve 
 kurulum esnasında "ADD PATH" seçeneğini işaretleyiniz
