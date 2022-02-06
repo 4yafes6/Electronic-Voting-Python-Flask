@@ -1,3 +1,17 @@
+this program is under construction
+database -> MySql
+code editor -> Visual Studio Code
+used
+
+The purpose of this program is biometric-based on the web.
+electronic voting
+
+While registering, it asks for your e-mail address and sends you a code.
+If you enter the code sent correctly, it requests and saves your face data.
+Afterwards, when you enter the correct ID number and password while logging in, you will be asked.
+asks for your face data and sees whether it matches the face you provided when registering.
+checking is true, login is successful
+
 1- PYTHON INSTALLATION
 You have run the file named " python-3.8.0-amd64.exe " and
 Check "ADD PATH" option during installation
